@@ -1,0 +1,16 @@
+////////////////////////////////
+// Version 1.0.0.4
+Optimized code to avoid memcpy if we're passing samples through
+
+////////////////////////////////
+// Version 1.0.0.3
+Added support for aspect ratio preservation
+
+////////////////////////////////
+// Version 1.0.0.2
+Added support for sample's media type change while running the graph
+Adjust output pin allocator if buffer size is not enough
+
+////////////////////////////////
+// Version 1.0.0.1
+First tracked version

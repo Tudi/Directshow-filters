@@ -1,0 +1,8 @@
+////////////////////////////////
+// Version 1.0.0.2
+Return proper file duration (in 100ns units)
+Expose IMediaSeeking interface by output pin
+
+////////////////////////////////
+// Version 1.0.0.1
+First tracked version

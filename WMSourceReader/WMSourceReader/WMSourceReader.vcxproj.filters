@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\EncoderCommon\Src\VIDIBaseCommon\WinSystem.cpp" />
+    <ClCompile Include="..\..\Common\utils.cpp" />
+    <ClCompile Include="PusherStreamPin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="WMSourceReader.cpp" />
+    <ClCompile Include="WMSourceReaderFilter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\EncoderCommon\Src\VIDIBaseCommon\Media.h" />
+    <ClInclude Include="..\..\..\..\..\..\EncoderCommon\Src\VIDIBaseCommon\WinSystem.h" />
+    <ClInclude Include="..\..\Common\utils.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="PusherStreamPin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="WMSourceReaderFilter.h" />
+    <ClInclude Include="version.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f145c2ad-8151-4932-a8bb-0f82e20e1256}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WMSourceReader.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WMSourceReader.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VersionHistory.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="WMSourceReader.def" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,55 @@
+//
+// XenonLiveEncoder.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+
+#include ".\\version.h"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION VERSION_MAJOR,VERSION_MINOR,VERSION_BUILD,VERSION_REVISION
+ PRODUCTVERSION VERSION_MAJOR,VERSION_MINOR,VERSION_BUILD,VERSION_REVISION
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+ FILEFLAGS  VS_FF_SPECIALBUILD | VS_FF_DEBUG
+#else
+ FILEFLAGS VS_FF_SPECIALBUILD
+#endif
+FILETYPE         VFT_DLL
+FILESUBTYPE      VFT2_UNKNOWN
+FILEOS           VOS__WINDOWS32
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Image PreProcessor Filter"
+            VALUE "CompanyName", " Technology Inc"
+            VALUE "FileDescription", " Image PreProcessor Filter"
+            VALUE "FileVersion", VERSION_FULLSTRING
+            VALUE "InternalName", "ImagePreProcessor"
+            VALUE "LegalCopyright", "Copyright (C) 2002 - 2010 , Inc. All rights reserved"
+            VALUE "OriginalFilename", "ImagePreProcessor.dll"
+            VALUE "ProductName", " Image PreProcessor Filter"
+            VALUE "ProductVersion", VERSION_FULLSTRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
